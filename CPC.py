@@ -1,16 +1,18 @@
 import requests
 import json
-'pools for top 16'
+
+
+#FILL THESE IN FIRST
+api_key = ''   #From Challonge Developer API
+username = ''  #Account Username
+subdomain = '' #Subdomain (ex: rocnysmash)
+tournament_url = ''  #url for the tournament, after challonge.com/{url}
+
 
 if __name__ == '__main__':
-    api_key = 'oa1peEFUK2kTFLFL4EvDEenwVdgEQIJW0am6NbQ1'
-    url = "https://chresssb:" + api_key + "@api.challonge.com/v1/tournaments/rocnysmash-tpg30s4/participants.json"
-    headers = {
-        'api-key': api_key
-    }
-    response = requests.get(url, headers=headers)
-    response = response.json()
-    print(response)
+
+    url = "https://" + username + ":" + api_key + "@api.challonge.com/v1/tournaments/" + subdomain + "-" + tournament_url + "/participants.json"
+    response = requests.get(url).json()
 
     seeded_entrants = []
 
