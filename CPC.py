@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     print("Challonge settings: ")
     print("2 Stage - Double Elim")
-    print("Set number of entrants in each pool to total entrants/8 rounded up ex: 75 entrants 75/8 =9.xxx round up to 10")
+    print("Set number of entrants in each pool to total entrants/ rounded up ex: 75 entrants 75/8 =9.xxx round up to 10")
 
     if subdomain == '':
         url = "https://" + username + ":" + api_key + "@api.challonge.com/v1/tournaments/" + tournament_url + "/participants"
