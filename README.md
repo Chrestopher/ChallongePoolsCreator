@@ -8,7 +8,7 @@ When running large tournaments on challonge, it is inefficient as a tournament o
 
 Create a tournament in challonge with these settings:
 
-**Initialize type of tournament
+**Initialize type of tournament**
 
 Game Info -> Type ->  Two Stage Tournament — groups compete separately, winners proceed to a final stage (e.g. World Cup)
 
