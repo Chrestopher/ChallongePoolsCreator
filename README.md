@@ -24,6 +24,6 @@ Game Info -> Group Stage -> participants advance from each group — must be a p
 
 Game Info -> Final Stage -> Single Elimination, Double Elimination, Round Robin, Swiss (Can be anything, recommend using double elim)
 
-
+**Params**:
 
 
