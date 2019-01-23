@@ -5,12 +5,25 @@ When running large tournaments on challonge, it is inefficient as a tournament o
 
 
 **Instructions**:
-1. In CPC.py, fill in the fields at the top and then run.
 
-python CPC.py (tournament_id) (number of pools) (pool survivors)
+Create a tournament in challonge with these settings:
 
-Ex: python CPC.py adnkfla 5 1
-this would seed the tournament to have 5 pools and 1 entrant per pool make it to the final bracket
+**Initialize type of tournament
 
-Pools will be in output.txt
+Game Info -> Type ->  Two Stage Tournament — groups compete separately, winners proceed to a final stage (e.g. World Cup)
+
+**Group Stage Setup**
+
+Game Info -> Group Stage -> Single Elimination, Double Elimination, Round Robin (Can be anything)
+
+Game Info -> Group Stage -> participants compete in each group
+
+Game Info -> Group Stage -> participants advance from each group — must be a power of 2 for single & double elim
+
+**Final Stage Setup**
+
+Game Info -> Final Stage -> Single Elimination, Double Elimination, Round Robin, Swiss (Can be anything, recommend using double elim)
+
+
+
 
