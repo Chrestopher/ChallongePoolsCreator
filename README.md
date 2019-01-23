@@ -34,6 +34,6 @@ Game Info -> Final Stage -> Single Elimination, Double Elimination, Round Robin,
 Place your API Key in keys.txt
 The API Key can be found on your challonge account at this address (https://challonge.com/settings/developer)
 
-Run the executable file and provide the required inputs
+Run the executable file (ChallongePoolsCreator)and provide the required inputs
 
 
