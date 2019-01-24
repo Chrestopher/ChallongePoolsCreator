@@ -13,7 +13,7 @@ def get_base_data(data):
 
     identifier = turl.split("/")[3]
 
-    f = open('./key.txt', 'r')
+    f = open('key.txt', 'r')
     api_key = f.read()[9:len(f.read()) - 1]
     f.close()
 
@@ -40,7 +40,7 @@ def creator(data):
 
     # Append participants of response, write to input file, before the pools program runs
 
-    f = open('./files/input.txt', 'w')
+    f = open('files/input.txt', 'w')
     for item in response:
         entrant = item['participant']["name"]
         seeded_entrants.append(entrant)
@@ -59,7 +59,7 @@ def creator(data):
     count = len(seeded_entrants)
 
     # Write to file, create pools
-    f = open('./files/output.txt', 'w')
+    f = open('files/output.txt', 'w')
     for i in range(0, num_pools):
         index_list = []
         for j in range(i, count, num_pools):

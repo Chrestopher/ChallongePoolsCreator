@@ -1,4 +1,4 @@
-from src import ui
+import ui
 
 if __name__ == '__main__':
     app = ui.App()
