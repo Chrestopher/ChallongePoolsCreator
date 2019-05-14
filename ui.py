@@ -1,5 +1,5 @@
 import tkinter as tk
-from src import pool_creator
+import pool_creator
 
 
 class App(tk.Tk):
